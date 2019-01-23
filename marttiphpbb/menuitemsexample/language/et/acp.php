@@ -4,6 +4,8 @@
 * phpBB Extension - marttiphpbb menuitems
 * @copyright (c) 2014 - 2019 marttiphpbb <info@martti.be>
 * @license GNU General Public License, version 2 (GPL-2.0)
+*
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 */
 
 if (!defined('IN_PHPBB'))
@@ -19,33 +21,33 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 
 	'ACP_MARTTIPHPBB_MENUITEMS_SETTINGS_SAVED'
-	=> 'The settings have been saved successfully!',
+	=> 'Seaded on edukalt salvestatud!',
 
 	'ACP_MARTTIPHPBB_MENUITEMS_ENABLE'
-	=> 'Enable Menu Item Location',
+	=> 'Luba menüü asukoht',
 	'ACP_MARTTIPHPBB_MENUITEMS_PRIORITY'
-	=> 'Priority',
+	=> 'Prioriteet',
 	'ACP_MARTTIPHPBB_MENUITEMS_LOCATIONS'
-	=> 'Menu item locations',
+	=> 'Menüü asukoht',
 
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_HEADER_NAVIGATION_PREPEND'
 	=> 'Overall header navigation prepend',
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_HEADER_NAVIGATION_APPEND'
 	=> 'Overall header navigation append',
 	'ACP_MARTTIPHPBB_MENUITEMS_NAVBAR_HEADER_QUICK_LINKS_BEFORE'
-	=> 'Navbar header quick links before',
+	=> 'Navigeerimisreal enne kiirlinkide menüüd',
 	'ACP_MARTTIPHPBB_MENUITEMS_NAVBAR_HEADER_QUICK_LINKS_AFTER'
-	=> 'Navbar header quick links after',
+	=> 'Navigeerimisreal peale kiirlinkide menüüd',
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_HEADER_BREADCRUMBS_BEFORE'
-	=> 'Overall header breadcrumbs before',
+	=> 'Päises enne breadcrumbs menüüd',
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_HEADER_BREADCRUMBS_AFTER'
-	=> 'Overall header breadcrumbs after',
+	=> 'Päises peale breadcrumbs menüüd',
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_FOOTER_TIMEZONE_BEFORE'
-	=> 'Overall footer timezone before',
+	=> 'Jaluses enne ajatsooni',
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_FOOTER_TIMEZONE_AFTER'
-	=> 'Overall footer timezone after',
+	=> 'Jaluses peale ajatsooni',
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_FOOTER_TEAMLINK_BEFORE'
-	=> 'Overall footer teamlink before',
+	=> 'Jaluses enne Meeskonna linki',
 	'ACP_MARTTIPHPBB_MENUITEMS_OVERALL_FOOTER_TEAMLINK_AFTER'
-	=> 'Overall footer teamlink after',
+	=> 'Jaluses peale Meeskonna linki',
 ]);
